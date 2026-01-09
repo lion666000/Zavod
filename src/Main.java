@@ -51,6 +51,9 @@ public class Main {
         e.start();
 
 
+
+
+
         try {
             a.join();
             b.join();
@@ -64,21 +67,21 @@ public class Main {
 
         System.out.println("\n\nZávod skončil! Celkový počet ujetých kol: " + z.getPocetKol());
 
-        if (a1.get() > a2.get() && a1.get() > a3.get() && a1.get() > a4.get() && a1.get() > a5.get()) {
-            System.out.println("Auto 1 je první");
-        }
-        else if (a2.get() > a1.get() && a2.get() > a3.get() && a2.get() > a4.get() && a2.get() > a5.get()) {
-            System.out.println("Auto 2 je první");
-        }
-        else if (a3.get() > a1.get() && a3.get() > a2.get() && a3.get() > a4.get() && a3.get() > a5.get()) {
-            System.out.println("Auto 3 je první");
-        }
-        else if (a4.get() > a1.get() && a4.get() > a2.get() && a4.get() > a3.get() && a4.get() > a5.get()) {
-            System.out.println("Auto 4 je první");
-        }
-        else if (a5.get() > a1.get() && a5.get() > a2.get() && a5.get() > a3.get() && a5.get() > a4.get()) {
-            System.out.println("Auto 5 je první");
-        }
+//        if (a1.get() > a2.get() && a1.get() > a3.get() && a1.get() > a4.get() && a1.get() > a5.get()) {
+//            System.out.println("Auto 1 je první");
+//        }
+//        else if (a2.get() > a1.get() && a2.get() > a3.get() && a2.get() > a4.get() && a2.get() > a5.get()) {
+//            System.out.println("Auto 2 je první");
+//        }
+//        else if (a3.get() > a1.get() && a3.get() > a2.get() && a3.get() > a4.get() && a3.get() > a5.get()) {
+//            System.out.println("Auto 3 je první");
+//        }
+//        else if (a4.get() > a1.get() && a4.get() > a2.get() && a4.get() > a3.get() && a4.get() > a5.get()) {
+//            System.out.println("Auto 4 je první");
+//        }
+//        else if (a5.get() > a1.get() && a5.get() > a2.get() && a5.get() > a3.get() && a5.get() > a4.get()) {
+//            System.out.println("Auto 5 je první");
+//        }
 
     }
 }
